@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_ROOT = "http://localhost:8000/api/posts/";
+const API_ROOT = "https://perth-api.onrender.com/api/posts/";
 
 const Body = () => {
     const [posts, setPosts] = useState([]);

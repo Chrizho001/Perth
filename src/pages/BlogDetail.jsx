@@ -2,7 +2,7 @@ import DetailHeader from "../components/DetailHeader";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-const API_ROOT = "http://localhost:8000/api/posts/";
+const API_ROOT = "https://perth-api.onrender.com/api/posts/";
 
 const BlogDetail = () => {
     const { slug } = useParams();
